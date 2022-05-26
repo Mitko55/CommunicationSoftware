@@ -48,7 +48,7 @@ namespace Discord_2._0.View
             this.btnSignUp.TabIndex = 13;
             this.btnSignUp.Text = "SignUp";
             this.btnSignUp.UseVisualStyleBackColor = true;
-            this.btnSignUp.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // txtPassSignUp
             // 
@@ -58,7 +58,6 @@ namespace Discord_2._0.View
             this.txtPassSignUp.Name = "txtPassSignUp";
             this.txtPassSignUp.Size = new System.Drawing.Size(281, 43);
             this.txtPassSignUp.TabIndex = 12;
-            this.txtPassSignUp.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // lblPassSignUp
             // 
@@ -69,7 +68,6 @@ namespace Discord_2._0.View
             this.lblPassSignUp.Size = new System.Drawing.Size(180, 38);
             this.lblPassSignUp.TabIndex = 11;
             this.lblPassSignUp.Text = "Password:";
-            this.lblPassSignUp.Click += new System.EventHandler(this.lblPass_Click);
             // 
             // txtEmailSignUp
             // 
@@ -79,7 +77,6 @@ namespace Discord_2._0.View
             this.txtEmailSignUp.Name = "txtEmailSignUp";
             this.txtEmailSignUp.Size = new System.Drawing.Size(281, 43);
             this.txtEmailSignUp.TabIndex = 10;
-            this.txtEmailSignUp.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // lblEmailSignUp
             // 
@@ -90,7 +87,6 @@ namespace Discord_2._0.View
             this.lblEmailSignUp.Size = new System.Drawing.Size(180, 38);
             this.lblEmailSignUp.TabIndex = 9;
             this.lblEmailSignUp.Text = "Email:";
-            this.lblEmailSignUp.Click += new System.EventHandler(this.lblEmail_Click);
             // 
             // lblSignUp
             // 
@@ -102,7 +98,6 @@ namespace Discord_2._0.View
             this.lblSignUp.TabIndex = 8;
             this.lblSignUp.Text = "SignUp";
             this.lblSignUp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblSignUp.Click += new System.EventHandler(this.lblLogin_Click);
             // 
             // txtName
             // 
@@ -127,7 +122,6 @@ namespace Discord_2._0.View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Discord_2._0.Properties.Resources.istockphoto_1185747322_612x612;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtName);
